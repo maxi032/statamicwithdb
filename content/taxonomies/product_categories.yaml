@@ -1,0 +1,9 @@
+title: 'Product categories'
+preview_targets:
+  -
+    label: Term
+    url: '{permalink}'
+    refresh: true
+sites:
+  - en
+  - ro

@@ -1,0 +1,48 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              localizable: true
+              validate:
+                - required
+          -
+            handle: content
+            field:
+              type: markdown
+              localizable: true
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - products
+              max_items: 1
+              listable: false
+              localizable: true
+          -
+            handle: product_categories
+            field:
+              type: terms
+              taxonomies:
+                - product_categories
+              display: 'Product categories'
+              mode: select
+              localizable: false
+title: Product

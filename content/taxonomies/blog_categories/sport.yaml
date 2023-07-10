@@ -1,0 +1,12 @@
+title: Sport
+content: 'Blog articles from sport category'
+blueprint: blog_category
+updated_by: b5a977b9-be36-4329-89ce-ee68ee5b8b66
+updated_at: 1688921273
+localizations:
+  ro:
+    title: Sport
+    content: 'Articole din categoria Sport'
+    slug: sport
+    updated_by: b5a977b9-be36-4329-89ce-ee68ee5b8b66
+    updated_at: 1688921240

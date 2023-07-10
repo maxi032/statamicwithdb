@@ -1,0 +1,12 @@
+title: Medicine
+content: 'Articles from medicine category'
+updated_by: b5a977b9-be36-4329-89ce-ee68ee5b8b66
+updated_at: 1688921713
+blueprint: blog_category
+localizations:
+  ro:
+    title: Medicina
+    content: 'Articole din categoria medicina'
+    slug: medicina
+    updated_by: b5a977b9-be36-4329-89ce-ee68ee5b8b66
+    updated_at: 1688921840

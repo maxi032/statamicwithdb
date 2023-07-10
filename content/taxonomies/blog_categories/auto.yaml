@@ -1,0 +1,11 @@
+title: Auto
+content: 'Articles from Auto category'
+updated_by: b5a977b9-be36-4329-89ce-ee68ee5b8b66
+updated_at: 1688921494
+blueprint: blog_category
+localizations:
+  ro:
+    content: 'Articole din categoria auto'
+    slug: auto
+    updated_by: b5a977b9-be36-4329-89ce-ee68ee5b8b66
+    updated_at: 1688921528

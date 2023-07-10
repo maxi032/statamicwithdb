@@ -1,0 +1,12 @@
+title: Science
+content: 'Blog articles from category science'
+updated_by: b5a977b9-be36-4329-89ce-ee68ee5b8b66
+updated_at: 1688921207
+blueprint: blog_category
+localizations:
+  ro:
+    title: Stiinta
+    content: 'Aici sunt articole din categoria stiinta'
+    slug: stiinta
+    updated_by: b5a977b9-be36-4329-89ce-ee68ee5b8b66
+    updated_at: 1688921159

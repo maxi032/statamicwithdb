@@ -1,0 +1,6 @@
+title: 'Main  navigation'
+collections:
+  - blog
+  - pages
+  - products
+root: true
