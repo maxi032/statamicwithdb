@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><img src="https://statamic.com/assets/branding/Statamic-Logo+Wordmark-Rad.svg" width="400" alt="Statamic Logo" /></p>
 
 ## About Statamic
@@ -38,3 +39,7 @@ In order to ensure that the Statamic community is welcoming to all and generally
 [discord]: https://statamic.com/discord
 [contribution]: https://github.com/statamic/cms/blob/master/CONTRIBUTING.md
 [cms-repo]: https://github.com/statamic/cms
+=======
+# statamicwithdb
+Statamic CMS with mysql driver
+>>>>>>> e5f5b0c0dd08454814a7d583bdeca40c3622e7e1
