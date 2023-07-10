@@ -17,4 +17,5 @@ use Illuminate\Support\Facades\Route;
 //    'title' => 'Example'
 // ]);
 
+Route::permanentRedirect('/', '/en/home');
 Route::permanentRedirect('/en', '/en/home');

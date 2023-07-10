@@ -9,7 +9,18 @@
     </head>
     <body class="bg-gray-100 font-sans leading-normal text-gray-800">
     <header>
-
+        {{ nav:main_navigation include_home="true" }}
+        <ul>
+        <li class="has-submenu">
+            <a href="{{ url }}"{{ if is_current || is_parent }} class="on"{{ endif }}>{{ title }}</a>
+            {{ if children }}
+            <ul class="level{{ index }}">
+                <li class="header-main__item">{{ *recursive children* }}</li>
+            </ul>
+            {{ endif }}
+        </li>
+        </ul>
+        {{ /nav:main_navigation }}
     </header>
         <div class="mx-auto px-2 lg:min-h-screen flex flex-col items-center justify-center">
             {{ template_content }}
